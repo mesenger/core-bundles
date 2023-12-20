@@ -3,8 +3,8 @@ helm:
   releaseName: rancher-backup
   repo: https://charts.rancher.io
   chart: rancher-backup
-  version: 1.0.400
-  values:
-    persistence:
-      enabled: true
-      storageClass: local-path
+  version: 103.0.0+up4.0.0
+#  values:
+#    persistence:
+#      enabled: true
+#     storageClass: local-path
